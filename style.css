@@ -60,6 +60,11 @@ main {
 
 .hero p {margin:0px 0px 16px 0px;}
 
+.search {
+    display: flex;
+    align-items: center;
+}
+
 .search i {
     padding: 16px 20px;
 }
@@ -71,4 +76,52 @@ main {
     height: 48px;
     width: 176px;
     padding: 0px 24px; 
+}
+
+.search_button {
+    color:white;
+    font-size: 16px;
+    font-weight: 600;
+    background: #0065FC;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    height: 48px;
+    padding: 0px 24px;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.filters h3 {
+    margin: 0px 32px 16px 0px;
+    font-size: 24px;
+}
+
+.filters div {
+    margin: 0px 32px 16px 0px;
+    border: 2px solid #d9d9d9;
+    border-radius: 50px;
+    display: flex;
+}
+
+.filters i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1500FF;
+    background: #DEEBFF;
+    height: 3.5rem;
+    width: 3.5rem;
+    margin: -2px;
+    border-radius: 100%;
+}
+
+.filters p {
+    margin-left: 16px;
+    margin-right: 16px;
+    color: black;
+    font-weight: 600;
 }

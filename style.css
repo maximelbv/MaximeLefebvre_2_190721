@@ -125,3 +125,19 @@ main {
     color: black;
     font-weight: 600;
 }
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.info i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid #d9d9d9;
+    border-radius: 100%;
+    margin-right: 16px;
+}

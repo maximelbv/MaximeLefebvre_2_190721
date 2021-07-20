@@ -1,0 +1,74 @@
+@font-face {
+    font-family: Raleway;
+    src: url(media/fonts/static/Raleway-Medium.ttf);
+}
+
+body {
+    font-family: Raleway;
+    max-width: 1440px;
+    margin: auto;
+}
+
+header {
+    height: 88px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto 1fr auto auto;
+    grid-template-areas: "logo . nav button";
+}
+
+.logo {
+    grid-area: logo;
+    padding: 0px 32px;
+}
+
+.nav {
+    margin: 0px;
+    grid-area: nav;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    
+}
+
+.nav a {
+    padding: 32px;
+    color: #0065FC;
+}
+
+.inscription_btn {
+    grid-area: button;
+    padding: 0px 32px;
+    color: #0065FC;
+    font-weight: 600;
+}
+
+.inscription_btn:checked {
+    color: #0065FC;
+}
+
+main {
+    padding-left: 32px;
+}
+
+.hero h2 {
+    margin: 16px 0px 8px 0px;
+    font-size: 32px;
+}
+
+.hero p {margin:0px 0px 16px 0px;}
+
+.search i {
+    padding: 16px 20px;
+}
+
+.search_input {
+    border : none;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    width: 176px;
+    padding: 0px 24px; 
+}

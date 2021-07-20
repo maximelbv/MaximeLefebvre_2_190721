@@ -17,26 +17,28 @@
 <body>
     
     <header>
-        <img src="media/logo/Reservia.svg" alt="Logo reservia">
-        <a href="#">S'inscrire</a>
-        <ul>
-            <li><a href="#search_results">Hébergements</a></li>
-            <li><a href="#search_results_activities">Activités</a></li>
+        <img class="logo" src="media/logo/Reservia.svg" alt="Logo reservia">
+        
+        <ul class="nav">
+            <li><a href="#search_results_section">Hébergement</a></li>
+            <li><a href="#search_results_activities_section">Activités</a></li>
         </ul>
+
+        <a class="inscription_btn" href="#">S'inscrire</a>
     </header>
 
     <main>
 
-        <section id="search">
+        <section class="search_section">
 
-            <div id="hero">
+            <div class="hero">
                 <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
                 <p>En plein centre vile ou en pleine nature</p>
             </div>
 
             <div class="search">
                 <label><i class="fas fa-map-marker-alt"></i>
-                    <input type="text" id="search_input" placeholder="Marseille, France">
+                    <input type="text" class="search_input" placeholder="Marseille, France">
                     <input type="submit" value="Rechercher">
                 </label>
             </div>
@@ -74,7 +76,7 @@
 
         </section>
 
-        <section id="most_popular">
+        <section id="most_popular_section">
 
             <div class="most_popular_title">
                 <h2>Les plus populaires</h2>
@@ -122,7 +124,7 @@
 
         </section>
 
-        <section id="search_results">
+        <section id="search_results_section">
 
                 <h2>Hébergement à Marseille</h2>
 
@@ -208,7 +210,7 @@
 
         </section>
 
-        <section id="search_results_activities">
+        <section id="search_results_activities_section">
 
             <h2>Activités à Marseille</h2>
 

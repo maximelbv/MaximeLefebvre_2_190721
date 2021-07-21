@@ -142,3 +142,67 @@ main {
     border-radius: 100%;
     margin-right: 16px;
 }
+
+.accomodation_section {
+    display: grid;
+    column-gap: 2rem;
+    grid-template-columns: 6fr 3fr;
+}
+
+.card {
+    border-radius: 1.25rem;
+    box-shadow: 0 0 16px #0000002e;
+    max-height: 189px;
+    
+}
+
+.accomodation_section li {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    
+}
+
+.accomodation_section ul {
+    padding: 0px;
+}
+
+.accomodation_section img {
+    position: relative;
+    width: 100%;
+    height: 7rem;
+    object-fit: cover;
+}
+
+.results {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+.results h2 {
+    grid-column: 1/-1;
+}
+
+.most_popular div {
+    display: flex;
+    align-items: stretch;
+}
+
+.most_popular img {
+    width: 33%;
+} 
+
+.results h4 {
+    margin: 0px;
+}
+
+.results p {
+    margin: 0px;
+}
+
+.results li {
+    margin: 0px;
+}

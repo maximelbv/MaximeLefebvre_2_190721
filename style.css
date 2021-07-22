@@ -240,8 +240,8 @@ main {
     margin: 0px;
 }
 
-.info_popular ul {
-    justify-self: flex-end;
+.blank {
+    height: 33%;
 }
 
 .fa-star{

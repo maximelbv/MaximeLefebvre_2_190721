@@ -348,5 +348,24 @@ main {
      height: 77%;
  }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    padding: 0px 32px;
+    
+}
 
+footer ul {
+    list-style: none;
+    display: block;
+}
 
+footer li {
+    margin: 20px 0px;
+}
+
+footer a {
+    color: black;
+    
+}

@@ -141,6 +141,7 @@ main {
     border: 1px solid #d9d9d9;
     border-radius: 100%;
     margin-right: 16px;
+    color: #0065FC;
 }
 
 .accomodation_section {
@@ -156,8 +157,8 @@ main {
 .card {
     border-radius: 1rem;
     box-shadow: 0 0 16px #00000050;
-    height: 189px;
-    max-height: 189px;
+    height: 200px;
+    max-height: 200px;
     padding: 5px;  
 }
 
@@ -230,12 +231,17 @@ main {
 }
 
 .info_popular {
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .info_popular * {
     margin: 0px;
+}
+
+.info_popular ul {
+    justify-self: flex-end;
 }
 
 .fa-star{
@@ -253,14 +259,94 @@ main {
     align-items: center;
     justify-content: space-between;
 }
- .most_popular_title h2 {
+.most_popular_title h2 {
      margin: 0px;
  }
 
- .most_popular_title i {
+.most_popular_title i {
     font-size: 1.5rem;
  }
 
+.activities {
+    margin: 64px 0px;
+    padding: 0px 32px;
+    display: grid;
+    column-gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto 14rem repeat(3, 2rem) 14rem;
+    grid-template-areas: 
+    "tt tt tt tt"
+    "vp fp pc nd"
+    "vp fp pc ."
+    "vp fp pc pl"
+    "vp . pc pl"
+    "vp if pc pl";
+ }
+
+.activities a {
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+ }
+
+.activities img {
+    border-radius: 1rem 1rem 0 0;
+    width: 100%;
+    height: 70%;
+    object-fit: cover; 
+ }
+
+.activities h2 {
+    grid-area: tt;
+}
+
+.activities h4 {
+    margin: 0px;
+    margin: 20px 24px;
+    height: auto;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.vieux_port {
+     grid-area: vp;
+ }
+
+ .vieux_port img {
+     height: 88%;
+ }
+
+.fort_de_pomegue {
+     grid-area: fp;
+ }
+
+ .fort_de_pomegue img {
+     height: 77%;
+ }
+
+ .ile_du_frioul {
+     grid-area: if;
+ }
+
+ .calanques {
+     grid-area: pc;
+ }
+
+ .calanques img {
+    height: 88%;
+ }
+
+ .notre_dame {
+     grid-area: nd;
+ }
+
+ .parc_longchamp {
+     grid-area: pl;
+ }
+
+ .parc_longchamp img {
+     height: 77%;
+ }
 
 
 

@@ -1,0 +1,9 @@
+@media screen and (max-width: 680px) {
+    header {
+        height: 176px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "logo button"
+            "nav1 nav2";
+    }
+}

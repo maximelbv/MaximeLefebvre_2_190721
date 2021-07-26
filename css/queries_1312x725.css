@@ -1,5 +1,14 @@
 @media screen and (max-width: 1312px) {
+
+    main {
+        padding: 16px;
+    }
+
     .accomodation_section {
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
+    }
+
+    .results {
+        grid-row: 2;
     }
 }

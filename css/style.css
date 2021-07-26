@@ -13,9 +13,8 @@ header {
     height: 88px;
     display: grid;
     align-items: center;
-    justify-content: center;
-    grid-template-columns: auto 1fr auto auto;
-    grid-template-areas: "logo . nav button";
+    grid-template-columns: auto 6fr auto auto auto;
+    grid-template-areas: "logo . nav1 nav2 button";
 }
 
 .logo {
@@ -23,30 +22,34 @@ header {
     padding: 0px 32px;
 }
 
-.nav {
+.nav1 {
     margin: 0px;
-    grid-area: nav;
+    grid-area: nav1;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    list-style-type: none;
-    
+    list-style-type: none; 
+    padding: 32px;
+    color: #0065FC;
 }
 
-.nav a {
+.nav2 {
+    margin: 0px;
+    grid-area: nav2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none; 
     padding: 32px;
     color: #0065FC;
 }
 
 .inscription_btn {
+    justify-self: flex-end;
     grid-area: button;
     padding: 0px 32px;
     color: #0065FC;
     font-weight: 600;
-}
-
-.inscription_btn:checked {
-    color: #0065FC;
 }
 
 main {
@@ -158,7 +161,6 @@ main {
     border-radius: 1rem;
     box-shadow: 0 0 16px #00000050;
     height: 200px;
-    max-height: 200px;
     padding: 5px;  
 }
 
@@ -367,5 +369,4 @@ footer li {
 
 footer a {
     color: black;
-    
 }

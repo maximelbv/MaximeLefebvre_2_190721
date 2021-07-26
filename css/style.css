@@ -13,7 +13,7 @@ h2 {
     font-weight: 500;
 }
 
-/* --- HEADER --- */
+                        /* --- HEADER --- */
 
 header {
     padding: 0px 32px;
@@ -40,6 +40,12 @@ header {
     grid-area: nav2;
     justify-self: center;
     color: black;
+    border-top: 2px solid #F2F2F2;
+}
+
+.nav2:hover {
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
 }
 
 .inscription_btn {
@@ -50,33 +56,41 @@ header {
     font-weight: 600;
 }
 
+                        /* --- MAIN --- */
+                    
+    /* --- ACCOMODATION SECTION / ACTIVITIES SECTION --- */
+
 main {
-    padding-left: 32px;
+    padding: 0 32px;
 }
 
-.hero h2 {
+/* SEARCH SECTION */
+
+.hero_title {
     margin: 16px 0px 8px 0px;
     font-size: 32px;
 }
 
-.hero p {margin:0px 0px 16px 0px;}
-
-.search {
-    display: flex;
-    align-items: center;
+.hero_text {
+    margin:0px 0px 16px 0px;
 }
 
-.search i {
+.fa-map-marker-alt {
     padding: 16px 20px;
+    border-radius: 1rem 0 0 1rem;
+    background: #F2F2F2;
 }
 
 .search_input {
     border : none;
+    border-top: #F2F2F2 1px solid;
+    border-bottom: #F2F2F2 1px solid;
     font-size: 16px;
     font-weight: 600;
-    height: 48px;
     width: 176px;
+    height: 48px;
     padding: 0px 24px; 
+    
 }
 
 .search_button {
@@ -146,7 +160,7 @@ main {
 }
 
 .accomodation_section {
-    margin: 32px;
+    /* margin: 32px; */
     display: grid;
     column-gap: 2rem;
     grid-template-columns: 6fr 3fr;

@@ -17,9 +17,6 @@
         padding: 32px 0px;
     }
 
-    .most_popular {
-        padding: 32px 0px;
-    }
     .activities {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -41,5 +38,21 @@
 
     footer {
         flex-direction: column;
+    }
+
+    .search {
+        width: 100%;
+    }
+
+    .search_button {
+        padding: 0px;
+    }
+
+    .search_button p {
+        display: none;
+    }
+
+    .fa-search {
+        display: block;
     }
 }

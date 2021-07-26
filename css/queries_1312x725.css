@@ -10,14 +10,6 @@
 
     .results {
         grid-row: 2;
-        padding: 32px 0px;
-    }
-
-    .most_popular {
-        padding: 32px 0px;
-    }
-
-    .activities {
-        padding: 32px 0px;
+        margin-top: 32px;
     }
 }

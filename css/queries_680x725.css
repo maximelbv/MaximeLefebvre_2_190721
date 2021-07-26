@@ -6,4 +6,12 @@
             "logo button"
             "nav1 nav2";
     }
+
+    .results {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        flex-direction: column;
+    }
 }

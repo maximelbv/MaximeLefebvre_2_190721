@@ -1,9 +1,5 @@
 @media screen and (max-width: 680px) {
 
-    main {
-        padding: 32px;
-    }
-
     header {
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
@@ -13,7 +9,7 @@
 
     .results {
         grid-template-columns: 1fr;
-        padding: 32px 0px;
+        background: none;
     }
 
     .activities {
@@ -31,12 +27,37 @@
         "pl";
     }
 
+    .activities a {
+        margin-top: 32px;
+    }
+
     .activities img {
         height: 150px;
     }
 
-    footer {
+    .accomodation_section {
+        padding: 0;
+    }
+
+    .most_popular {
+        padding: 32px 0px;
+        border-radius: 0;
+    }
+
+    .most_popular_title {
+        margin: 0px 32px;
+    }
+
+    .card_popular {
+        margin: 0px 32px;
+    }
+
+    .footer_menu {
         flex-direction: column;
+    }
+
+    .footer_menu ul {
+        width: auto;
     }
 
     .search {

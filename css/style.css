@@ -5,7 +5,6 @@
 
 body {
     font-family: Raleway;
-    max-width: 1440px;
     margin: auto;
 }
 
@@ -13,9 +12,11 @@ h2 {
     font-weight: 500;
 }
 
-                        /* --- HEADER --- */
+                              /* --- HEADER --- */
 
 header {
+    max-width: 1440px;
+    margin: auto;
     padding: 0px 32px;
     display: grid;
     align-items: center;
@@ -61,10 +62,15 @@ header {
     /* --- SEARCH SECTION / ACCOMODATION SECTION / ACTIVITIES SECTION --- */
 
 main {
-    padding: 0 32px;
+    max-width: 1440px;
+    margin: auto;
 }
 
 /* SEARCH SECTION */
+
+.search_section {
+    padding: 0 32px;
+}
 
 .hero_title {
     margin: 16px 0px 8px 0px;
@@ -102,6 +108,11 @@ main {
     border-radius: 0px 15px 15px 0px;
     height: 48px;
     padding: 0px 24px;
+}
+
+.fa-search {
+    color: white;
+    display: none;
 }
 
 .filters {
@@ -166,6 +177,7 @@ main {
     display: grid;
     column-gap: 2rem;
     grid-template-columns: 6fr 3fr;
+    padding: 0 32px;
 }
 
 .accomodation_section a {
@@ -291,12 +303,9 @@ main {
 
 /* ACTIVITIES SECTION */
 
-
-
-
 .activities {
+    padding: 0 32px;
     margin: 64px 0px;
-    padding: 0px 32px;
     display: grid;
     column-gap: 2rem;
     grid-template-columns: repeat(4, 1fr);
@@ -308,84 +317,68 @@ main {
     "vp fp pc pl"
     "vp . pc pl"
     "vp if pc pl";
- }
+}
+ 
+ .activities_title {
+    grid-area: tt;
+}
 
 .activities a {
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
- }
+}
 
 .activities img {
     border-radius: 1rem 1rem 0 0;
     width: 100%;
     height: 70%;
     object-fit: cover; 
- }
-
-.activities h2 {
-    grid-area: tt;
 }
 
 .activities h4 {
-    margin: 0px;
     margin: 20px 24px;
-    height: auto;
     font-size: 18px;
     font-weight: bold;
     color: black;
 }
 
-.vieux_port {
-     grid-area: vp;
- }
+.vieux_port {grid-area: vp;}
 
- .vieux_port img {
-     height: 88%;
- }
+.vieux_port img {height: 88%;}
 
-.fort_de_pomegue {
-     grid-area: fp;
- }
+.fort_de_pomegue {grid-area: fp;}
 
- .fort_de_pomegue img {
-     height: 77%;
- }
+.fort_de_pomegue img {height: 77%;}
 
- .ile_du_frioul {
-     grid-area: if;
- }
+.ile_du_frioul {grid-area: if;}
 
- .calanques {
-     grid-area: pc;
- }
+.calanques {grid-area: pc;}
 
- .calanques img {
-    height: 88%;
- }
+.calanques img {height: 88%;}
 
- .notre_dame {
-     grid-area: nd;
- }
+.notre_dame {grid-area: nd;}
 
- .parc_longchamp {
-     grid-area: pl;
- }
+.parc_longchamp {grid-area: pl;}
 
- .parc_longchamp img {
-     height: 77%;
- }
+.parc_longchamp img {height: 77%;}
+
+                              /* --- FOOTER --- */
 
 footer {
+    background: #F2F2F2;
+}
+
+.footer_menu {
     display: flex;
-    justify-content: space-between;
-    width: 75%;
-    padding: 0px 32px;
-    
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 32px;
 }
 
 footer ul {
     list-style: none;
-    display: block;
+    width: 400px;
+    padding: 2rem 2rem;
 }
 
 footer li {
@@ -394,9 +387,4 @@ footer li {
 
 footer a {
     color: black;
-}
-
-.fa-search {
-    color: white;
-    display: none;
 }

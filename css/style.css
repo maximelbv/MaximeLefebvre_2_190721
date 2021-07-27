@@ -166,8 +166,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 2rem;
-    width: 2rem;
+    min-height: 2rem;
+    min-width: 2rem;
     border: 1px solid #d9d9d9;
     border-radius: 100%;
     margin-right: 16px;

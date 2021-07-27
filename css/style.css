@@ -81,6 +81,10 @@ main {
     margin:0px 0px 16px 0px;
 }
 
+.search_form {
+    display: flex;
+}
+
 .fa-map-marker-alt {
     padding: 16px 20px;
     border-radius: 1rem 0 0 1rem;
@@ -112,7 +116,7 @@ main {
 
 .fa-search {
     color: white;
-    display: none;
+    visibility: hidden;
 }
 
 .filters {

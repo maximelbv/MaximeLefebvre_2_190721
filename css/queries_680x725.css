@@ -1,10 +1,31 @@
 @media screen and (max-width: 680px) {
 
     header {
+        padding: 0;
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
             "logo button"
             "nav1 nav2";
+    }
+
+    .logo {
+        padding: 16px;
+    }
+
+    .nav1 {
+        border-top: hidden;
+        border-bottom: 2px solid #0065FC;
+    }
+
+    .nav2 {
+        border-top: hidden;
+        border-bottom: 2px solid #F2F2F2F2;
+    }
+
+    .nav2:hover {
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+        border-top: hidden;
     }
 
     .results {
@@ -60,8 +81,12 @@
         width: auto;
     }
 
-    .search {
-        width: 100%;
+    .search_input {
+        width: 70%;
+    }
+
+    .search_button {
+        
     }
 
     .search_button p {
@@ -69,6 +94,6 @@
     }
 
     .fa-search {
-        display: block;
+        visibility: visible;
     }
 }

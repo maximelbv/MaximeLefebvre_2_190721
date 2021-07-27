@@ -8,4 +8,22 @@
         grid-row: 2;
         margin-top: 32px;
     }
+
+    .activities {
+        grid-row-gap: 32px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto repeat(2, 1fr);
+        grid-template-areas:
+        "tt tt tt"
+        "vp fp if"
+        "pc nd pl";
+    }
+
+    .activities img {
+        height: 200px;
+    }
+
+    .activities_title {
+        height: 20px;
+    }
 }

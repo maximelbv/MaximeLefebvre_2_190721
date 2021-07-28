@@ -1,10 +1,15 @@
 @font-face {
     font-family: Raleway;
-    src: url(media/fonts/static/Raleway-Medium.ttf);
+    src: url(media/fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: Paloseco;
+    src: url(media/fonts/Paloseco-Medium.ttf);
 }
 
 body {
-    font-family: Raleway;
+    font-family: Raleway, Paloseco;
     margin: auto;
 }
 
@@ -20,11 +25,10 @@ a {
     transform: scale(1.02);
 }
 
-
                               /* --- HEADER --- */
 
 header {
-    max-width: 1440px;
+    max-width: 1376px;
     margin: auto;
     padding: 0px 32px;
     display: grid;

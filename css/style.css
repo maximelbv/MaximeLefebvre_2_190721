@@ -128,11 +128,13 @@ main {
     border-radius: 0px 15px 15px 0px;
     height: 48px;
     padding: 0px 24px;
+    cursor: pointer;
 }
+
 
 .fa-search {
     color: white;
-    visibility: hidden;
+    display: none;
 }
 
 .filters {

@@ -41,12 +41,12 @@
         width: 70%;
     }
 
-    .search_button p {
+    .search_button span {
         display: none;
     }
 
     .fa-search {
-        visibility: visible;
+        display: block;
     }
 
     .filters div {

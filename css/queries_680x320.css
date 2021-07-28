@@ -1,34 +1,13 @@
 @media screen and (max-width: 680px) {
 
+                        /* --- HEADER --- */
+
     header {
         padding: 0;
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
             "logo button"
             "nav1 nav2";
-    }
-
-    .hero_title {
-        font-size: 25px;
-    }
-
-    .filters div {
-        margin-right: 10px;
-    }
-
-    .filters i {
-        height: 3rem;
-        width: 3rem;
-    }
-
-    .filters h3 {
-        font-size: 20px;
-        width: 100%;
-    }
-
-    .filters p {
-        margin: 12px;
-        font-size: 14px;
     }
 
     .logo {
@@ -49,6 +28,63 @@
         color: #0065FC;
         border-bottom: 2px solid #0065FC;
         border-top: hidden;
+    }
+                        /* --- MAIN --- */
+
+    /* SEARCH SECTION */
+
+    .hero_title {
+        font-size: 25px;
+    }
+    
+    .search_input {
+        width: 70%;
+    }
+
+    .search_button p {
+        display: none;
+    }
+
+    .fa-search {
+        visibility: visible;
+    }
+
+    .filters div {
+        margin-right: 10px;
+    } 
+    
+    .filters h3 {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .filters i {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .filters p {
+        margin: 12px;
+        font-size: 14px;
+    }
+    
+    /* ACCOMODATION SECTION */
+
+    .accomodation_section {
+        padding: 0;
+    }
+
+    .most_popular {
+        padding: 32px 0px;
+        border-radius: 0;
+    }
+
+    .most_popular_title {
+        margin: 0px 32px;
+    }
+
+    .card_popular {
+        margin: 0px 32px;
     }
 
     .results {
@@ -84,22 +120,7 @@
         height: 150px;
     }
 
-    .accomodation_section {
-        padding: 0;
-    }
-
-    .most_popular {
-        padding: 32px 0px;
-        border-radius: 0;
-    }
-
-    .most_popular_title {
-        margin: 0px 32px;
-    }
-
-    .card_popular {
-        margin: 0px 32px;
-    }
+                            /* --- FOOTER --- */
 
     .footer_menu {
         flex-direction: column;
@@ -107,17 +128,5 @@
 
     .footer_menu ul {
         width: auto;
-    }
-
-    .search_input {
-        width: 70%;
-    }
-
-    .search_button p {
-        display: none;
-    }
-
-    .fa-search {
-        visibility: visible;
     }
 }

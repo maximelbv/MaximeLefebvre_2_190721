@@ -18,12 +18,12 @@
         "vp fp if"
         "pc nd pl";
     }
+    
+    .activities_title {
+        height: 20px;
+    }
 
     .activities img {
         height: 200px;
-    }
- 
-    .activities_title {
-        height: 20px;
     }
 }

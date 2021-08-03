@@ -1,15 +1,7 @@
-@font-face {
-    font-family: Raleway;
-    src: url('/media/fonts/Raleway-Medium.ttf');
-}
-
-@font-face {
-    font-family: Paloseco;
-    src: url('/media/fonts/Paloseco-Medium.ttf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
 body {
-    font-family: Raleway, Paloseco;
+    font-family: Raleway;
     margin: auto;
 }
 
@@ -133,7 +125,8 @@ main {
 
 .fa-search {
     color: white;
-    display: none !important;
+    visibility: hidden;
+    position: absolute;
 }
 
 .filters {

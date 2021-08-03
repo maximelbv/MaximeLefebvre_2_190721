@@ -1,11 +1,11 @@
 @font-face {
     font-family: Raleway;
-    src: url(media/fonts/Raleway-Medium.ttf);
+    src: url('/media/fonts/Raleway-Medium.ttf');
 }
 
 @font-face {
     font-family: Paloseco;
-    src: url(media/fonts/Paloseco-Medium.ttf);
+    src: url('/media/fonts/Paloseco-Medium.ttf');
 }
 
 body {
@@ -131,10 +131,9 @@ main {
     cursor: pointer;
 }
 
-
 .fa-search {
     color: white;
-    display: none;
+    display: none !important;
 }
 
 .filters {

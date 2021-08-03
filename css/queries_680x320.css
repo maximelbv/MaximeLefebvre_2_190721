@@ -46,7 +46,7 @@
     }
 
     .fa-search {
-        display: block;
+        display: block !important;
     }
 
     .filters div {

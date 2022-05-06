@@ -1,4 +1,4 @@
-# Reservia
+![image](https://user-images.githubusercontent.com/58565963/167069109-2ba8788f-d03e-4b21-b799-693ce22b9ca4.png)
  
 Deuxième projet du parcours développeur web chez OpenClassrooms : "Transformez une maquette en site Web"
 
